@@ -9,5 +9,7 @@
   <property name="hibernate.connection.username">javaui</property>
   <property name="hibernate.show_sql">true</property>
   <mapping class="com.jk.entities.Employee1"/>
+  <mapping resource="com/jk/hib/one2one/JKEmployee.hbm.xml"/>
+  <mapping resource="com/jk/hib/one2one/JKAddress.hbm.xml"/>
  </session-factory>
 </hibernate-configuration>

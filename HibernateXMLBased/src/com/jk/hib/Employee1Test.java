@@ -16,9 +16,9 @@ public class Employee1Test {
 		Transaction tx = session.beginTransaction();
 		
 		Employee1 emp = new Employee1();
-		emp.setEmpId(15);
+		emp.setEmpId(16);
 		emp.setName("Kishore");
-		emp.setRole("S.Lead");
+		emp.setRole("A.Lead");
 		emp.setInsertTime(new Date(System.currentTimeMillis()));
 		
 		session.save(emp);
